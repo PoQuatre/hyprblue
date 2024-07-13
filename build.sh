@@ -6,9 +6,8 @@ RELEASE="$(rpm -E %fedora)"
 
 # Install packages
 
-rpm-ostree install hyprland xdg-desktop-portal-hyprland kitty
-
-rpm-ostree override remove vim --install neovim
+rpm-ostree uninstall vim
+rpm-ostree install hyprland xdg-desktop-portal-hyprland kitty neovim
 
 # Enabling System Units
 
