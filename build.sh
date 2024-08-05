@@ -10,8 +10,8 @@ rpm-ostree install hyprland xdg-desktop-portal-hyprland kitty neovim
 
 # Symlinks
 
-ln -sf /usr/local/bin/vi /usr/bin/nvim
-ln -sf /usr/local/bin/vim /usr/bin/nvim
+ln -sf /usr/bin/nvim /usr/local/bin/vi
+ln -sf /usr/bin/nvim /usr/local/bin/vim
 
 # Enabling System Units
 
