@@ -10,6 +10,7 @@ rpm-ostree install hyprland xdg-desktop-portal-hyprland kitty neovim zsh ripgrep
 
 # Symlinks
 
+mkdir -p /usr/local/bin
 ln -sf /usr/bin/nvim /usr/local/bin/vi
 ln -sf /usr/bin/nvim /usr/local/bin/vim
 
