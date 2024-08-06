@@ -15,12 +15,11 @@ pkgs=(
 
   # CLI Tools
   ripgrep fzf fd-find
-
-  # Programming
-  clang make
 )
 
 rpm-ostree install "${pkgs[@]}"
+
+rpm-ostree install --disablerepo='*' --enablerepo='fedora' clang make
 
 # Enabling System Units
 
