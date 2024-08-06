@@ -8,13 +8,13 @@ RELEASE="$(rpm -E %fedora)"
 
 pkgs=(
   # Desktop Environment
-  hyprland xdg-desktop-portal-hyprland waybar rofi-wayland
+  hyprland xdg-desktop-portal-hyprland waybar rofi-wayland swww
 
   # Essential Apps
-  kitty neovim zsh thunar thunar-volman thunar-archive-plugin
+  kitty neovim thunar thunar-volman thunar-archive-plugin
 
   # CLI Tools
-  ripgrep fzf fd-find
+  zsh ripgrep fzf fd-find zoxide cliphist
 )
 
 rpm-ostree install "${pkgs[@]}"
