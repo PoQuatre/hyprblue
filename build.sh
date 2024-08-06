@@ -6,7 +6,21 @@ RELEASE="$(rpm -E %fedora)"
 
 # Install packages
 
-rpm-ostree install hyprland xdg-desktop-portal-hyprland kitty neovim zsh ripgrep fzf fd-find
+pkgs=(
+  # Desktop Environment
+  hyprland xdg-desktop-portal-hyprland waybar rofi-wayland
+
+  # Essential Apps
+  kitty neovim zsh thunar thunar-volman thunar-archive-plugin
+
+  # CLI Tools
+  ripgrep fzf fd-find
+
+  # Programming
+  clang make
+)
+
+rpm-ostree install "${pkgs[@]}"
 
 # Enabling System Units
 
