@@ -8,7 +8,7 @@ RELEASE="$(rpm -E %fedora)"
 
 pkgs=(
   # Desktop Environment
-  hyprland xdg-desktop-portal-hyprland waybar rofi-wayland swww
+  hyprland xdg-desktop-portal-hyprland waybar rofi-wayland swww polkit-gnome pinentry-gnome3
 
   # Essential Apps
   kitty neovim thunar thunar-volman thunar-archive-plugin
