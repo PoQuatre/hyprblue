@@ -51,6 +51,7 @@ FROM ghcr.io/ublue-os/${SOURCE_IMAGE}${SOURCE_SUFFIX}:${SOURCE_TAG}
 COPY build.sh /tmp/build.sh
 COPY solopasha-hyprland-fedora-40.repo /etc/yum.repos.d/solopasha-hyprland-fedora-40.repo
 COPY plymouth-catppuccin-mocha /usr/share/plymouth/themes/catppuccin-mocha
+COPY plymouthd.defaults /usr/share/plymouth/plymouthd.defaults
 
 RUN mkdir -p /var/lib/alternatives && \
   /tmp/build.sh && \
