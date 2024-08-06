@@ -19,8 +19,6 @@ pkgs=(
 
 rpm-ostree install "${pkgs[@]}"
 
-rpm-ostree install --disablerepo='*' --enablerepo='fedora' clang make
-
 # Enabling System Units
 
 systemctl enable podman.socket
