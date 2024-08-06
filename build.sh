@@ -14,7 +14,7 @@ pkgs=(
   kitty neovim thunar thunar-volman thunar-archive-plugin
 
   # CLI Tools
-  zsh ripgrep fzf fd-find zoxide cliphist
+  zsh ripgrep fzf fd-find zoxide cliphist gh
 )
 
 rpm-ostree install "${pkgs[@]}"
