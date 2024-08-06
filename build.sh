@@ -4,9 +4,6 @@ set -ouex pipefail
 
 RELEASE="$(rpm -E %fedora)"
 
-# Set the default theme of plymouth
-plymouth-set-default-theme -R catppuccin-mocha
-
 # Install packages
 
 pkgs=(
