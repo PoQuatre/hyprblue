@@ -15,7 +15,7 @@ pkgs=(
   swww
   polkit-gnome
   pinentry-gnome3
-  gcr
+  gcr3
   breeze-cursor-theme
   dbus-tools
   hyprshot
