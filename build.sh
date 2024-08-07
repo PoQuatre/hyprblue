@@ -16,6 +16,9 @@ pkgs=(
   polkit-gnome
   pinentry-gnome3
   breeze-cursor-theme
+  dbus-tools
+  hyprshot
+  dunst
 
   # Essential Apps
   kitty
@@ -24,6 +27,8 @@ pkgs=(
   thunar-volman
   thunar-archive-plugin
   tuned
+  clapper
+  imv
 
   # CLI Tools
   zsh
