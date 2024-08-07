@@ -34,10 +34,6 @@ pkgs=(
   cliphist
   gh
   NetworkManager-tui
-
-  # Programming
-  clang
-  make
 )
 
 rpm-ostree install "${pkgs[@]}"
