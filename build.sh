@@ -41,3 +41,4 @@ rpm-ostree install "${pkgs[@]}"
 # Enabling System Units
 
 systemctl enable podman.socket
+systemctl enable tuned.service
