@@ -40,6 +40,8 @@ pkgs=(
   cliphist
   gh
   NetworkManager-tui
+  bat
+  eza
 )
 
 rpm-ostree install "${pkgs[@]}"
