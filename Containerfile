@@ -53,6 +53,7 @@ COPY solopasha-hyprland-fedora-40.repo /etc/yum.repos.d/solopasha-hyprland-fedor
 COPY plymouth-catppuccin-mocha /usr/share/plymouth/themes/catppuccin-mocha
 COPY plymouthd.defaults /usr/share/plymouth/plymouthd.defaults
 COPY us-azerty /usr/share/X11/xkb/symbols/us-azerty
+COPY us-azerty.map /usr/lib/kbd/keymaps/xkb/us-azerty.map
 
 RUN mkdir -p /var/lib/alternatives && \
   /tmp/build.sh && \
