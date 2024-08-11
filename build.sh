@@ -42,6 +42,7 @@ pkgs=(
   NetworkManager-tui
   bat
   eza
+  git-delta
 )
 
 rpm-ostree install "${pkgs[@]}"
