@@ -43,6 +43,7 @@ pkgs=(
   bat
   eza
   git-delta
+  direnv
 )
 
 rpm-ostree install "${pkgs[@]}"
